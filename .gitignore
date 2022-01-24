@@ -1,5 +1,40 @@
-node_modules
+# Files created by OS
+#
 .DS_Store
-dist
-dist-ssr
-*.local
+Desktop.ini
+
+# Files created by IDE
+#
+/.idea/
+/.vscode/
+
+/*.code-workspace
+
+# Downloadable & installable modules & components
+#
+/node_modules/
+
+# Generated & compiled files
+#
+/.nuxt/
+/dist/
+
+/*.tgz
+/static/sw.js
+
+# Generated & compiled files
+#
+__pycache__/
+*.pyc
+
+# Environmental files
+#
+.env
+
+# Log files
+#
+/yarn-error.log
+
+# Not ignored
+#
+!.gitkeep
