@@ -6,13 +6,15 @@
          class="alert alert-danger"
          role="alert">
       <h3 class="alert-heading">
-        Si è verificato un errore!
+        Oh, oh... Qualcosa si è rotto! 🥺
       </h3>
-      Controlla il codice che hai scritto;
-      potresti trovarci un piccolo errore.<br />
-      Sei sicuro di aver passato il numero giusto di parametri?
+      Controlla <b>bene</b> il codice che hai scritto;
+      potresti trovarci un <i>piccolo</i> errore, da qualche parte.
       <div v-if="errorMessage">
         <hr />
+        <p>
+          <strong>Qui di seguito, il dettaglio dell'errore:</strong>
+        </p>
         <pre>{{ errorMessage }}</pre>
       </div>
     </div>
