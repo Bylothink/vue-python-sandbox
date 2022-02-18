@@ -1,7 +1,7 @@
-# Vue Python Sandbox
+# Vue Python Sandbox 🚀
 
-A ready-to-use environment for developing simple Python applications
-to be viewed in the browser instead of the command line.
+A ready-to-use environment for developing Python applications
+to be viewed within a browser instead of the command line.
 
 ## Before starting
 
